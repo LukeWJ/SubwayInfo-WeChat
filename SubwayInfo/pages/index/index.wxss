@@ -1,0 +1,76 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 60%;
+}
+.mini-btn{
+    margin-right: 5px;
+}
+
+.detail-start{
+ background-color: #74bf4c;
+}
+.detail-background {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    opacity: .6;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 5px;    
+}
+
+.detail-end {
+    background-color: #e6325c;
+    margin-left: 20px;
+}
+
+.detail-direction
+{
+  
+  margin-right: 60px;
+  width: 7px;
+}
+.float-left{
+float: left;
+}
+.float-right{
+float: right;
+}
+.detail-line{
+  margin-top: 5px;
+}
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
